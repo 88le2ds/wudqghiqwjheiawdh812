@@ -37,6 +37,6 @@
     const data = new FormData(form);
     const profile = { name: data.get("name"), email: data.get("email"), role: data.get("role"), genres: genres.map((input) => input.value), goal: data.get("goal"), createdAt: new Date().toISOString() };
     try { sessionStorage.setItem("silverheartProfile", JSON.stringify(profile)); } catch (_) { /* Continue if browser storage is unavailable. */ }
-    window.location.assign("submitted.html");
+    window.location.assign("../submitted/");
   }));
 })();
