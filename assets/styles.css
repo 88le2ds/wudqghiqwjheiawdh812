@@ -218,7 +218,7 @@ h1 { max-width: 9ch; font-size: clamp(4.4rem, 10vw, 9.8rem); font-weight: 800; }
   --muted: #92918d;
   --line: rgba(245, 244, 239, .15);
   --line-strong: rgba(245, 244, 239, .42);
-  --accent: #dd4d43;
+  --accent: #959595;
   --ease: cubic-bezier(.2, .8, .2, 1);
 }
 
